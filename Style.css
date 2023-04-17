@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@600&display=swap');
+
+
+.Lmain {
+    background: linear-gradient(to left, #504b4b, #eb5353 50%, #504b4b);
+    height: 100vh;
+
+}
+
+.Lmain .leftElips {
+    position: fixed;
+    width: 630px;
+    height: 407px;
+    left: 900px;
+    top: -75px;
+    overflow: hidden;
+    border-radius: 50%;
+    max-zoom: 100%;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #60CBFF;
+    backdrop-filter: blur(277.5px);
+    /* border: 2px solid red; */
+}
+
+.Lmain .RightElips {
+    position: fixed;
+    width: 635px;
+    height: 652px;
+    left: -220px;
+    top: 304px;
+    border-radius: 50%;
+
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3664F4;
+    backdrop-filter: blur(276.5px);
+}
+
+.loginBox {
+
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 67vh;
+    width: 60vw;
+    margin-left: 250px;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(113.54deg, rgba(255, 255, 255, 0.221) 0%, rgba(255, 255, 255, 0.0255) 98.71%);
+    box-shadow: 10px 10px 10px rgba(235, 83, 83, 0.15);
+    backdrop-filter: blur(5px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 54px;
+}
+
+.loginBox .Text {
+    position: absolute;
+    width: 136px;
+    height: 57px;
+    left: 471px;
+    top: 66px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FAFAFA;
+
+
+}
+
+.loginBox .underline {
+    padding-bottom: 5px;
+    text-decoration: underline solid #EB5353 4px;
+    text-underline-offset: 0.4em;
+}
+
+.form {
+    position: absolute;
+    width: 190px;
+    height: 22px;
+    left: 452px;
+    top: 150px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.imageMarketing {
+    background-image: url("Mobile_Marketing-rafiki_300x320.png");
+    height: 320px;
+    margin-top: -10px;
+    width: 300px;
+    margin: 75px;
+    /* border: 2px solid black; */
+
+}
+
+b h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.form2 {
+    position: absolute;
+    width: 190px;
+    height: 22px;
+    left: 452px;
+    top: 210px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.btnplace {
+    position: absolute;
+    width: 96px;
+    height: 35px;
+    left: 457px;
+    top: 212px;
+
+    background: #EB5353;
+    border-radius: 7px;
+}
+
+.MainBody {
+    background-color: #252525;
+    height: 100vh;
+}
+
+.SideDashBorad {
+    position: fixed;
+    background-color: silver;
+    height: 100vh;
+    width: 20vw;
+    border-radius: 7%;
+}
+
+.TextBord {
+    position: absolute;
+    width: 266px;
+    height: 93px;
+    left: 31px;
+    top: -20px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EB5353;
+    padding-bottom: 5px;
+    text-decoration: underline solid #EB5353 4px;
+    text-underline-offset: 0.4em;
+
+}
+
+.DashBoradOption1 {
+    cursor: pointer;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 3px;
+    top: 109px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(56, 26, 26, 0.811);
+    border-radius: 20%;
+    color: #FAFAFA;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 29px;
+
+}
+
+.DashBoradOption2 {
+    cursor: pointer;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 3px;
+    top: 200px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(56, 26, 26, 0.811);
+    border-radius: 20%;
+    color: #FAFAFA;
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 29px;
+
+}
+
+.DashBoradOption3 {
+    cursor: pointer;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 3px;
+    top: 290px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(56, 26, 26, 0.811);
+    border-radius: 20%;
+    color: #FAFAFA;
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 29px;
+
+}
+
+.Row1{
+    position: absolute;
+width: 196px;
+height: 40px;
+left: 358px;
+top: 90px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+.Row1space{
+    position: absolute;
+width: 196px;
+height: 40px;
+left: 1100px;
+top: 90px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.DashBoradOption4 {
+    cursor: pointer;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 3px;
+    top: 380px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(56, 26, 26, 0.811);
+    border-radius: 20%;
+    color: #FAFAFA;
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 29px;
+
+}
+
+.DashBoradOption5 {
+    cursor: pointer;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 3px;
+    top: 470px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(56, 26, 26, 0.811);
+    border-radius: 20%;
+    color: #FAFAFA;
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 29px;
+
+}
+
+.Reciptionist {
+    position: absolute;
+    width: 271px;
+    height: 76px;
+    left: 3px;
+    top: 570px;
+    background-image: url("user-tie-solid\(1\).png");
+    border: 10px solid blue;
+    background-repeat: no-repeat;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    border-radius: 20%;
+    color: #FAFAFA;
+    text-align: center;
+    padding-left: 79px;
+    /* margin-left: 29px; */
+    cursor: pointer;
+
+}
+
+.DashBorde {
+    position: absolute;
+    width: 1112px;
+    height: 114px;
+    left: 220px;
+    top: -30px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: -60px;
+    padding-left: 500px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Card1 {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    left: calc(50% - 200px/2 - 183px);
+    top: 70px;
+
+    background: #60CBFF;
+    border-radius: 20px;
+    margin-left: 450px;
+}
+
+.Card2 {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    left: calc(50% - 200px/2 - 183px);
+    top: 70px;
+
+    background: #60CBFF;
+    border-radius: 20px;
+    margin-left: 700px;
+}
+
+.Card3 {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    left: calc(50% - 200px/2 - 183px);
+    top: 70px;
+
+    background: #60CBFF;
+    border-radius: 20px;
+    margin-left: 950px;
+}
+
+.Card4 {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    left: calc(50% - 200px/2 - 183px);
+    top: 70px;
+
+    background: #60CBFF;
+    border-radius: 20px;
+    margin-left: 1200px;
+}
+
+.CardDetail {
+    position: absolute;
+    width: 200px;
+    height: 74px;
+    left: calc(50% - 200px/2 - 183px);
+    top: 132px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 183px;
+    margin-top: -132px;
+
+
+}
+.Result{
+
+position: absolute;
+width: 199px;
+height: 136px;
+margin-left: 40px;
+top: 50px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 250;
+font-size: 63px;
+line-height: 82px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FAFAFA;
+
+
+}
+
+
+.header{
+    position: absolute;
+width: 310px;
+height: 48px;
+left: 358px;
+top: 130px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+.Tableheader{
+    
+position: absolute;
+width: 228px;
+height: 29px;
+left: 358px;
+top: 200px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.Tableheaderspace{
+    
+    position: absolute;
+    width: 228px;
+    height: 29px;
+    left: 1120px;
+    top: 200px;
+    
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    }
+.hrline{
+    position: absolute;
+    width: 1019px;
+    height: 5px;
+    left: 315px;
+    top: 230px;
+    
+    background: #EB5353;
+}
+
+.Order1{
+    position: absolute;
+width: 171px;
+height: 38px;
+left: 354px;
+top: 260px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+}
+
+.Order1Price{
+    position: absolute;
+width: 88px;
+height: 38px;
+left: 1130px;
+top: 260px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+
+
+}
+
+.Order2{
+    position: absolute;
+width: 171px;
+height: 38px;
+left: 354px;
+top: 300px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+}
+
+.Order2Price{
+    position: absolute;
+width: 88px;
+height: 38px;
+left: 1130px;
+top: 300px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+
+
+}
+
+.Order3{
+    position: absolute;
+width: 171px;
+height: 38px;
+left: 354px;
+top: 340px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+}
+
+.Order3Price{
+    position: absolute;
+width: 88px;
+height: 38px;
+left: 1130px;
+top: 340px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+
+
+}
+
+.Order4{
+    position: absolute;
+width: 171px;
+height: 38px;
+left: 354px;
+top: 380px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+}
+
+.Order4Price{
+    position: absolute;
+width: 88px;
+height: 38px;
+left: 1130px;
+top: 380px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+
+
+}
+
+.Order5{
+    position: absolute;
+width: 171px;
+height: 38px;
+left: 354px;
+top: 420px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+}
+
+.Order5Price{
+    position: absolute;
+width: 88px;
+height: 38px;
+left: 1130px;
+top: 420px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+
+
+}
